@@ -1,0 +1,49 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.w3-container{
+    padding: 36px;
+}
+
+p {
+    font-size: 15px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.tituloLink{
+    text-decoration: none;
+    color: #2b3542;
+}
+.tituloLink:hover{
+    color: red;
+}
+
+.cuerpoLink{
+    color: red;
+    text-decoration: none;
+    padding-top: 19px;
+}
+
+.cuerpoLink:hover{
+    text-decoration: underline;
+}
+
+#intro-1{
+    width: 295px;
+}
+
+#intro-2{
+    width: 295px;
+}
+#intro-3{
+    width: 295px;
+}
