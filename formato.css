@@ -1,1 +1,42 @@
+.flex-container {
+    display: flex;
 
+}
+
+.link-titulo {
+    text-decoration: none;
+    color: #2b3542;
+}
+
+.link-titulo:hover {
+    color: crimson;
+}
+
+.link-texto {
+    text-decoration: none;
+    color: red;
+}
+
+.link-texto:hover {
+    text-decoration: underline;
+}
+
+.paginas{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.paginador{
+    text-decoration: none;
+}
+
+.paginador:hover{
+    color: blue;
+}
+
+
+#contenedor-tarjetas {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
