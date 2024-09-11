@@ -1,55 +1,26 @@
 <!DOCTYPE html>
+
 <html lang="es">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tarjetas</title>
-  <link rel="stylesheet" href="formato.css">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta charset="UTF-8">
+    <title>Tarjetas</title>
+    <link rel="stylesheet" href="formato.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 
-<body>
-  <div class="flex-container">
+<body onload="pagina(1)">
 
-    <div class="w3-card-4" style="width:390px;" id="carta1">
-      <header class="w3-container">
-        <h3 id="titulo-1"></h3>
-      </header>
-      <div class="w3-container" id="Imagen" style="padding: 0;">
-        <img src="https://xmljatsredalyc.org/wp-content/uploads/2021/05/estandares-internacionales-768x399.jpg" alt="" style="width:100%">
-      </div>
-      <div class="w3-container" style="padding: 35px;">
-        <p id="intro-1"></p>
-      </div>
+    <div class="flex-container" id="contenedor-tarjetas" >
+        
     </div>
 
-    <div class="w3-card-4" style="width:390px;">
-      <header class="w3-container">
-        <h3 id="titulo-2"></h3>
-      </header>
-      <div class="w3-container" id="Imagen" style="padding: 0;">
-        <img src="https://xmljatsredalyc.org/wp-content/uploads/2021/05/11-criterios.png" alt="" style="width:100%">
-      </div>
-      <div class="w3-container" style="padding: 35px;">
-        <p id="intro-2"></p>
-      </div>
-    </div>
-
-    <div class="w3-card-4" style="width:390px;" id="carta3">
-      <header class="w3-container">
-        <h3 id="titulo-3"></h3>
-      </header>
-      <div class="w3-container" id="Imagen" style="padding: 0;">
-        <img src="https://xmljatsredalyc.org/wp-content/uploads/2021/05/practicas-editoriales-1024x532.jpg" alt="" style="width:100%">
-      </div>
-      <div class="w3-container" style="padding: 35px;">
-        <p id="intro-3"></p>
-      </div>
-    </div>
-
-  </div>
-  <script src="scripts.js"></script>
 </body>
 
+<footer class="paginas">
+    <a class="paginador" href="#" onclick="pagina(1)">1</a>
+    <a class="paginador" href="#" onclick="pagina(2)">2</a>
+    
+</footer>
+<script src="scripts.js"></script>
 </html>
